@@ -1,0 +1,7 @@
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\DataAccessLayer\bin\Debug\BusCompanyClassLibrary.dll
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\DataAccessLayer\bin\Debug\BusCompanyClassLibrary.pdb
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

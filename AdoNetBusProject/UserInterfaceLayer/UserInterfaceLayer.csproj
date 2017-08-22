@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B5EBF7CF-B0C2-424E-833F-630FBC365A82}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UserInterfaceLayer</RootNamespace>
+    <AssemblyName>UserInterfaceLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="00-EmployeeTransactions\EmployeeEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="00-EmployeeTransactions\EmployeeEditForm.Designer.cs">
+      <DependentUpon>EmployeeEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="00-EmployeeTransactions\EmployeeListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="00-EmployeeTransactions\EmployeeListForm.Designer.cs">
+      <DependentUpon>EmployeeListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="00-EmployeeTransactions\RoleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="00-EmployeeTransactions\RoleForm.Designer.cs">
+      <DependentUpon>RoleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="00-EmployeeTransactions\RoleListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="00-EmployeeTransactions\RoleListForm.Designer.cs">
+      <DependentUpon>RoleListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01-VehicleOperations\BrandEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01-VehicleOperations\BrandEditForm.Designer.cs">
+      <DependentUpon>BrandEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01-VehicleOperations\BrandListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01-VehicleOperations\BrandListForm.Designer.cs">
+      <DependentUpon>BrandListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01-VehicleOperations\BusEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01-VehicleOperations\BusEditForm.Designer.cs">
+      <DependentUpon>BusEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01-VehicleOperations\BusListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01-VehicleOperations\BusListForm.Designer.cs">
+      <DependentUpon>BusListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01-VehicleOperations\BusTypeEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01-VehicleOperations\BusTypeEditForm.Designer.cs">
+      <DependentUpon>BusTypeEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01-VehicleOperations\BusTypeListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01-VehicleOperations\BusTypeListForm.Designer.cs">
+      <DependentUpon>BusTypeListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01-VehicleOperations\ModelEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01-VehicleOperations\ModelEditForm.Designer.cs">
+      <DependentUpon>ModelEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01-VehicleOperations\ModelListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01-VehicleOperations\ModelListForm.Designer.cs">
+      <DependentUpon>ModelListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="02-TravelTransactions\HourEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02-TravelTransactions\HourEditForm.Designer.cs">
+      <DependentUpon>HourEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="02-TravelTransactions\HourListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02-TravelTransactions\HourListForm.Designer.cs">
+      <DependentUpon>HourListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="02-TravelTransactions\RouteEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02-TravelTransactions\RouteEditForm.Designer.cs">
+      <DependentUpon>RouteEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="02-TravelTransactions\RouteListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02-TravelTransactions\RouteListForm.Designer.cs">
+      <DependentUpon>RouteListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="02-TravelTransactions\TripEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02-TravelTransactions\TripEditForm.Designer.cs">
+      <DependentUpon>TripEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="02-TravelTransactions\TripListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02-TravelTransactions\TripListForm.Designer.cs">
+      <DependentUpon>TripListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03-TicketSalesOperations\SaleCancellationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03-TicketSalesOperations\SaleCancellationForm.Designer.cs">
+      <DependentUpon>SaleCancellationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03-TicketSalesOperations\SaleEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03-TicketSalesOperations\SaleEditForm.Designer.cs">
+      <DependentUpon>SaleEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03-TicketSalesOperations\SaleListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03-TicketSalesOperations\SaleListForm.Designer.cs">
+      <DependentUpon>SaleListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03-TicketSalesOperations\TicketCancellationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03-TicketSalesOperations\TicketCancellationForm.Designer.cs">
+      <DependentUpon>TicketCancellationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03-TicketSalesOperations\TicketEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03-TicketSalesOperations\TicketEditForm.Designer.cs">
+      <DependentUpon>TicketEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03-TicketSalesOperations\TicketListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03-TicketSalesOperations\TicketListForm.Designer.cs">
+      <DependentUpon>TicketListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04-GeneralOperations\CityEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04-GeneralOperations\CityEditForm.Designer.cs">
+      <DependentUpon>CityEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04-GeneralOperations\CityListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04-GeneralOperations\CityListForm.Designer.cs">
+      <DependentUpon>CityListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04-GeneralOperations\PaymentEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04-GeneralOperations\PaymentEditForm.Designer.cs">
+      <DependentUpon>PaymentEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04-GeneralOperations\PaymentListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04-GeneralOperations\PaymentListForm.Designer.cs">
+      <DependentUpon>PaymentListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms.Designer.cs">
+      <DependentUpon>MDIForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="00-EmployeeTransactions\EmployeeEditForm.resx">
+      <DependentUpon>EmployeeEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="00-EmployeeTransactions\EmployeeListForm.resx">
+      <DependentUpon>EmployeeListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="00-EmployeeTransactions\RoleForm.resx">
+      <DependentUpon>RoleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="00-EmployeeTransactions\RoleListForm.resx">
+      <DependentUpon>RoleListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01-VehicleOperations\BrandEditForm.resx">
+      <DependentUpon>BrandEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01-VehicleOperations\BrandListForm.resx">
+      <DependentUpon>BrandListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01-VehicleOperations\BusEditForm.resx">
+      <DependentUpon>BusEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01-VehicleOperations\BusListForm.resx">
+      <DependentUpon>BusListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01-VehicleOperations\BusTypeEditForm.resx">
+      <DependentUpon>BusTypeEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01-VehicleOperations\BusTypeListForm.resx">
+      <DependentUpon>BusTypeListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01-VehicleOperations\ModelEditForm.resx">
+      <DependentUpon>ModelEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01-VehicleOperations\ModelListForm.resx">
+      <DependentUpon>ModelListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02-TravelTransactions\HourEditForm.resx">
+      <DependentUpon>HourEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02-TravelTransactions\HourListForm.resx">
+      <DependentUpon>HourListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02-TravelTransactions\RouteEditForm.resx">
+      <DependentUpon>RouteEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02-TravelTransactions\RouteListForm.resx">
+      <DependentUpon>RouteListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02-TravelTransactions\TripEditForm.resx">
+      <DependentUpon>TripEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02-TravelTransactions\TripListForm.resx">
+      <DependentUpon>TripListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03-TicketSalesOperations\SaleCancellationForm.resx">
+      <DependentUpon>SaleCancellationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03-TicketSalesOperations\SaleEditForm.resx">
+      <DependentUpon>SaleEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03-TicketSalesOperations\SaleListForm.resx">
+      <DependentUpon>SaleListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03-TicketSalesOperations\TicketCancellationForm.resx">
+      <DependentUpon>TicketCancellationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03-TicketSalesOperations\TicketEditForm.resx">
+      <DependentUpon>TicketEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03-TicketSalesOperations\TicketListForm.resx">
+      <DependentUpon>TicketListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04-GeneralOperations\CityEditForm.resx">
+      <DependentUpon>CityEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04-GeneralOperations\CityListForm.resx">
+      <DependentUpon>CityListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04-GeneralOperations\PaymentEditForm.resx">
+      <DependentUpon>PaymentEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04-GeneralOperations\PaymentListForm.resx">
+      <DependentUpon>PaymentListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms.resx">
+      <DependentUpon>MDIForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusCompanyClassLibrary\BusCompanyClassLibrary.csproj">
+      <Project>{db94eca8-008d-4de9-b145-c3871921d707}</Project>
+      <Name>BusCompanyClassLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BussinessLogicLayer\BussinessLogicLayer.csproj">
+      <Project>{5ec7762b-a401-45aa-b05e-5e07fc2343f9}</Project>
+      <Name>BussinessLogicLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

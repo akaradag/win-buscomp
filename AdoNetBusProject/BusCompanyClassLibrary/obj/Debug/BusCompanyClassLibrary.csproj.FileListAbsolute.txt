@@ -1,0 +1,5 @@
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\BusCompanyClassLibrary\bin\Debug\BusCompanyClassLibrary.dll
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\BusCompanyClassLibrary\bin\Debug\BusCompanyClassLibrary.pdb
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\BusCompanyClassLibrary\obj\Debug\BusCompanyClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\BusCompanyClassLibrary\obj\Debug\BusCompanyClassLibrary.dll
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\BusCompanyClassLibrary\obj\Debug\BusCompanyClassLibrary.pdb

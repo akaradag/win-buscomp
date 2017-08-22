@@ -1,0 +1,9 @@
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\BussinessLogicLayer\obj\Debug\BussinessLogicLayer.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\BussinessLogicLayer\bin\Debug\BussinessLogicLayer.dll
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\BussinessLogicLayer\bin\Debug\BussinessLogicLayer.pdb
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\BussinessLogicLayer\bin\Debug\BusCompanyClassLibrary.dll
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\BussinessLogicLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\BussinessLogicLayer\bin\Debug\BusCompanyClassLibrary.pdb
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\BussinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\BussinessLogicLayer\obj\Debug\BussinessLogicLayer.dll
+C:\Users\User\Documents\Blue_AdoNetBusProject\AdoNetBusProject\BussinessLogicLayer\obj\Debug\BussinessLogicLayer.pdb
